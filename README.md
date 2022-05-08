@@ -1,2 +1,3 @@
 # tanno
-Convert Amazon States Language file to Mermaid  State Diagram
+
+Convert Amazon States Language file to Mermaid State Diagram

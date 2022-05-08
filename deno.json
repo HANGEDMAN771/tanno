@@ -1,0 +1,19 @@
+{
+  "lint": {
+    "files": {
+      "include": ["tanno/"],
+      "exclude": ["sample/"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["tanno/"],
+      "exclude": ["sample/"]
+    } 
+  },
+  "tasks": {
+    "gen_example": "deno run --allow-read --allow-write ./tanno/build/tasks/gen_example.ts",
+    "test": "deno test tanno",
+    "build": "deno compile --output tanno/bin/tanno --unstable tanno/tanno.ts"
+  }
+}

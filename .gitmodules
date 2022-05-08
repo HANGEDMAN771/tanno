@@ -1,0 +1,3 @@
+[submodule "examples/aws-stepfunctions-examples"]
+	path = examples/aws-stepfunctions-examples
+	url = https://github.com/aws-samples/aws-stepfunctions-examples.git
